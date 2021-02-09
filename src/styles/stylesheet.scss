@@ -1,0 +1,119 @@
+// This is the project stylesheet
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+// Colors
+$black: rgba(0, 0, 0, 1);
+$black-1: rgba(1, 1, 1, 1);
+$blue: rgba(64, 163, 255, 1);
+$coral: rgba(255, 153, 60, 1);
+$crimson: rgba(204, 0, 51, 1);
+$dark-gray: rgba(165, 165, 165, 1);
+$dark-orange: rgba(248, 139, 38, 1);
+$forest-green: rgba(27, 160, 48, 1);
+$gainsboro: rgba(221, 221, 221, 1);
+$gainsboro-2: rgba(227, 227, 227, 1);
+$gray: rgba(124, 124, 124, 1);
+$gray-2: rgba(123, 123, 123, 1);
+$green: rgba(15, 169, 88, 1);
+$invalid-color-rgba-2552552550: rgba(255, 255, 255, 0);
+$lavender: rgba(234, 234, 234, 1);
+$lawn-green: rgba(139, 204, 0, 1);
+$light-goldenrod-yellow: rgba(235, 255, 203, 1);
+$peach-puff: rgba(255, 222, 191, 1);
+$pink: rgba(255, 207, 207, 1);
+$transparent-black: rgba(0, 0, 0, 0.15);
+$transparent-black-2: rgba(4, 4, 4, 0.77);
+$white: rgba(255, 255, 255, 1);
+$white-smoke: rgba(244, 244, 244, 1);
+
+// Typographies
+@mixin helvetica-24-regular {
+  font-family: "Helvetica";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+}
+@mixin helvetica-40-bold {
+  font-family: "Helvetica";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+}
+@mixin helvetica-bold {
+  font-family: "Helvetica";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+}
+@mixin helvetica-regular {
+  font-family: "Helvetica";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+@mixin roboto-14-bold {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+}
+@mixin roboto-14-regular {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+@mixin roboto-16-bold {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+}
+@mixin roboto-16-bold-1 {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+}
+@mixin roboto-16-bold-line23 {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23px;
+}
+@mixin roboto-16-regular {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+@mixin roboto-16-regular-1 {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin roboto-16-regular-line23 {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+}
+@mixin roboto-18-bold {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+}
+@mixin roboto-18-regular {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin roboto-32-bold {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
+}
